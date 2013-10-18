@@ -25,9 +25,9 @@ app.configure('production', function(){
 
 // Conect to the MongoDB  pictures database
 
-mongoose.connect('mongodb://localhost/pictures_database');
+mongoose.connect('mongodb://puls3:matadorg1@ds049848.mongolab.com:49848/puls3');
 
 // Start the server
 
 http.createServer(app).listen(8080);
-console.log("Server runnig at http://localhost:8080")
+console.log("Server runnig at http://shielded-beach-5062.herokuapp.com")
